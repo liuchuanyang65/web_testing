@@ -1,0 +1,25 @@
+{
+  "name": "web_testing",
+  "version": "1.0.0",
+  "description": "Node版单元测试&UI测试&发布",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/mocha.js",
+    "covers": "istanbul cover _mocha test/mocha.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liuchuanyang65/web_testing.git"
+  },
+  "author": "liuchuanyang65",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/liuchuanyang65/web_testing/issues"
+  },
+  "homepage": "https://github.com/liuchuanyang65/web_testing#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "istanbul": "^0.4.5",
+    "mocha": "^6.2.2"
+  }
+}
